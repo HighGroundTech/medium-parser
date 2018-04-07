@@ -1,6 +1,6 @@
 {
   "name": "medium-post-parser",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Utility for parsing medium.com articles for custom use",
   "main": "index.js",
   "repository": "https://github.com/EmpyreHQ/medium-parser",
