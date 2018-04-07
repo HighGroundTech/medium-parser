@@ -1,6 +1,6 @@
 require('isomorphic-fetch');
 
-function parser(opts) {
+function parse(opts) {
   if (opts.user) {
     this.url = `medium.com/feed/@${opts.user}`;
   } else if (opts.publication) {
@@ -13,6 +13,4 @@ function parser(opts) {
   .then((res) => res);
 }
 
-parser({ user: 'RightActioning' });
-
-module.exports = parser;
+module.exports = parse;
