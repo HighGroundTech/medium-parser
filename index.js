@@ -1,3 +1,3 @@
-const mediumPostParser = require('./dist/index.min.js');
+const parse = require('./src/parse.js');
 
-exports.parser = mediumPostParser;
+exports.parse = parse;
