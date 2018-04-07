@@ -1,3 +1,5 @@
+const fetch = require('isomorphic-fetch');
+
 function parse(opts) {
   let url;
   if (opts.user) {
