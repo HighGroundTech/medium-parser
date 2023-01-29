@@ -20,6 +20,11 @@ function parse(opts) {
 module.exports = parse;
 ```
 
+```js
+// index.js
+exports.parse = parse;
+```
+
 Example use:
 
 ```
@@ -27,6 +32,6 @@ npm install medium-post-parser
 ```
 
 ```
-const medium = require('medium-post-parser')
-const posts = await medium({ user: 'PopularDemand' })
+const { parse } = require('medium-post-parser')
+const posts = await parse({ user: 'PopularDemand' })
 ```
